@@ -62,33 +62,31 @@ html, body {
   font-size: 16px;
   line-height: 43px;
   position: relative;
-  display: inline-block;
+  float:left;
   width: 120px;
   height: 43px;
   margin-right: 8px;
   text-align: center;
   text-indent: -15px;
   color: #fff;
-  background: url(../img/sprite.png) no-repeat;
+  background: url(../img/sprite.png) no-repeat 0 -86px;
 }
 .btn-item.lastOne {
   margin-right: 0;
   text-indent: 0;
 }
 a:hover .btn-item {
-  background: url(../img/sprite.png) 0 -44px no-repeat;
+  background: url(../img/sprite.png) 0 -130px no-repeat;
 }
-.icon {
-  display: inline-block;
-  width: 43px;
-  height: 39px;
-  vertical-align: middle;
+.btn-iphone {
+  display: block;
+  padding-left: 50px;
+  background: url(../img/sprite.png) no-repeat 18px 9px;
 }
-.icon-iphone {
-  background: url(../img/icon-iphone.png) no-repeat 10px 6px;
-}
-.icon-android {
-  background: url(../img/icon-android.png) no-repeat 13px 6px;
+.btn-android {
+  display: block;
+  padding-left: 48px;
+  background: url(../img/sprite.png) no-repeat -87px -34px;
 }
 .eqcode-warp {
   position: absolute;

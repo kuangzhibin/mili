@@ -52,7 +52,6 @@ html, body {
   list-style: none;
 }
 .btn-list a {
-  color:#fff;
   text-decoration: none;
   outline: 0;
 }
@@ -63,35 +62,31 @@ html, body {
   font-size: 16px;
   line-height: 43px;
   position: relative;
-  float: left;
+  float:left;
   width: 120px;
   height: 43px;
   margin-right: 8px;
   text-align: center;
   text-indent: -15px;
   color: #fff;
-  background: url(../img/sprite.png) no-repeat;
+  background: url(../img/sprite.png) no-repeat 0 -86px;
 }
 .btn-item.lastOne {
   margin-right: 0;
   text-indent: 0;
 }
 a:hover .btn-item {
-  background: url(../img/sprite.png) 0 -44px no-repeat;
+  background: url(../img/sprite.png) 0 -130px no-repeat;
 }
-.icon {
-  display: inline-block;
-  width: 33px;
-  height: 39px;
-  margin-top: 9px;
-  vertical-align: middle;
+.btn-iphone {
+  display: block;
+  padding-left: 50px;
+  background: url(../img/sprite.png) no-repeat 18px 9px;
 }
-.icon-iphone {
-  background: url(../img/sprite.png) no-repeat -121px 0px;
-}
-.icon-android {
-  background: url(../img/sprite.png) no-repeat -121px -44px;
-  margin-left: 10px;
+.btn-android {
+  display: block;
+  padding-left: 48px;
+  background: url(../img/sprite.png) no-repeat -87px -34px;
 }
 .eqcode-warp {
   position: absolute;
