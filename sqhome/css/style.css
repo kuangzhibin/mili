@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  font:14px/1.5 "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif; 
+}
+.section img{
+  width: 100%;
+}
+.section1{
+  overflow: hidden;
+}
+.section-warp{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.home-logo{
+  width: 15.729167%;
+  position: absolute;
+  top: 3.333333%;
+  left: 1.71875%;
+  z-index: 1;
+}
+.home-bg1{
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.home-bg2{
+  position: absolute;
+  width: 109.895833%;
+  height: 112.984293%;
+  bottom: -13.0890%;
+  left:2110px;
+  z-index: 2;
+  background: url(../img/bg-white.png) 0 0 no-repeat;
+  transition: left .8s .5s linear;
+}
+.onload .home-bg2{
+  left:70px;
+}
+.role-1{
+  position: absolute;
+  width: 767px;
+  height: 771px;
+  background: url(../img/role-1.png);
+  z-index: 6;
+  bottom: -13.0890%;
+  opacity: 0;
+  left: 386px;
+  transition: all .3s .3s;
+}
+.onload .role-1{
+  left:486px;
+  opacity: 1;
+}
+.role-2{
+  position: absolute;
+  width: 473px;
+  height: 761px;
+  background: url(../img/role-2.png);
+  z-index: 5;
+  bottom: -13.0890%;
+  opacity: 0;
+  left: 350px;
+  transition: all .6s 1.3s;
+}
+.onload .role-2{
+  left:295px;
+  opacity: 1;
+}
+.role-3{
+  position: absolute;
+  width: 394px;
+  height: 745px;
+  background: url(../img/role-3.png);
+  z-index: 4;
+  bottom: -13.0890%;
+  opacity: 0;
+  left: 550px;
+  transition: all .6s 1.7s;
+}
+.onload .role-3{
+  left:828px;
+  opacity: 1;
+}
+.role-4{
+  position: absolute;
+  width: 1074px;
+  height: 978px;
+  background: url(../img/role-4.png);
+  z-index: 3;
+  bottom: -13.0890%;
+  opacity: 0;
+  left: 350px;
+  transition: all .6s 1.7s;
+}
+.onload .role-4{
+  left:255px;
+  opacity: 1;
+}
+.role-5{
+  position: absolute;
+  width: 761px;
+  height: 912px;
+  background: url(../img/role-5.png);
+  z-index: 2;
+  bottom:4.50261%;
+  opacity: 0;
+  left: 350px;
+  transition: all .6s 1.9s;
+}
+.onload .role-5{
+  left:500px;
+  opacity: 1;
+}
+.text-title{
+  position: absolute;
+  z-index: 7;
+  bottom: 48%;
+  opacity: 0;
+  left: 1190px;
+  width: 515px;
+  transition: all .6s 2.2s;
+}
+.text-title p{
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.onload .text-title{
+  opacity: 1;
+  bottom:53.984293%;
+ }
+.text-desc{
+  width: 475px;
+  font-size: 18px;
+  color:#e09696;
+  position: absolute;
+  z-index: 7;
+  bottom:2%;
+  left: 1190px;
+  opacity: 0;
+  transition: all .8s 2.6s;
+}
+.onload .text-desc{
+  opacity: 1;
+}
