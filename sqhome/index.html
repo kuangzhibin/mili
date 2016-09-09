@@ -1,45 +1,145 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <div id='warp'>
-    <div class="section section1">
-      <div class="section-warp">
-        <div class="home-logo"><img src="./img/logo-shenqi.png"></div>
-        <div class="home-bg1"><img src="./img/bg-red.jpg"></div>
-        <div class="home-bg2"><img src="./img/bg-white.png"></div>
-        <div class="role-1"></div>
-        <div class="role-2"></div>
-        <div class="role-3"></div>
-        <div class="role-4"></div>
-        <div class="role-5"></div>
-        <div class="text-title">
-          <img src="./img/text-title.png" alt="">
-          <p>玄幻战斗类国漫《神契幻奇谭》TV动画化决定！
-原作由漫画家L.DART创作的作品，于08年开始
-连载于月刊《龙漫少年星期天》</p>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="home-logo"><img src="./img/logo-shenqi.png" alt=""></div>
+    <div id="menu">
+      <ul>
+        <li data-menuanchor="page2"><a href="#page2"><span>〇</span> 华炼</a></li>
+        <div class="dian"></div>
+        <li data-menuanchor="page3"><a href="#page3"><span>〇</span> 士龙</a></li>
+        <div class="dian"></div>
+        <li data-menuanchor="page4"><a href="#page4"><span>〇</span> 达莱尔</a></li>
+        <div class="dian"></div>
+        <li data-menuanchor="page5"><a href="#page5"><span>〇</span> 夏绫</a></li>
+        <div class="dian"></div>
+        <li data-menuanchor="page6"><a href="#page6"><span>〇</span> 花仪</a></li>
+        <div class="dian"></div>
+        <li data-menuanchor="page7"><a href="#page7"><span>〇</span> 小希</a></li>
+        <div class="dian"></div>
+        <li data-menuanchor="page8"><a href="#page8"><span>〇</span> 习木庵</a></li>
+        <div class="dian"></div>
+        <li data-menuanchor="page1"><a href="#page1">返回首页</a></li>
+      </ul>
+    </div>
+    <div id='warp'>
+      <div class="section section1 active">
+        <div class="section-warp">
+          <div class="home-bg1"><img src="./img/bg-red.jpg" alt=""></div>
+          <div class="home-bg2"><img src="./img/bg-white.png" alt=""></div>
+          <div class="role-1"><img src="./img/role-1.png" alt=""></div>
+          <div class="role-2"><img src="./img/role-2.png" alt=""></div>
+          <div class="role-3"><img src="./img/role-3.png" alt=""></div>
+          <div class="role-4"><img src="./img/role-4.png" alt=""></div>
+          <div class="role-5"><img src="./img/role-5.png" alt=""></div>
+          <div class="text-title">
+            <img src="./img/text-title.png" alt="">
+            <img src="./img/text-title-desc.png" alt="">
+            <!-- <p>玄幻战斗类国漫《神契幻奇谭》TV动画化决定！
+              原作由漫画家L.DART创作的作品，于08年开始
+            连载于月刊《龙漫少年星期天》</p> -->
+          </div>
+          <div class="text-desc">
+            <!-- <p>L.DART本身并不希望画现实题材的漫画，一直生活在现实中，拿起漫画却又进入了另一个现实，L.DART不知道何时该去做梦。之所以画《神契》因为它们都是L.DART喜欢的题材和内容。</p> -->
+            <img src="./img/text-desc.png" alt="">
+          </div>
         </div>
-        <div class="text-desc">
-          <p>L.DART本身并不希望画现实题材的漫画，一直生活在现实中，拿起漫画却又进入了另一个现实，L.DART不知道何时该去做梦。之所以画《神契》因为它们都是L.DART喜欢的题材和内容。</p>
+      </div>
+      <div class="section section2">
+        <div class="section-warp">
+          <div class="page-bg"><img src="./img/role1/page-bg.jpg" alt=""></div>
+          <div class="page-bg-left"><img src="./img/role1/page-bg-left.png" alt=""></div>
+          <div class="page-bg-right"><img src="./img/role1/page-bg-right.png" alt=""></div>
+          <div class="page-role"><img src="./img/role1/page-role.png" alt=""></div>
+          <div class="page-title"><img src="./img/role1/page-title.png" alt=""></div>
+          <div class="page-arms"><img src="./img/role1/page-arms.png" alt=""></div>
+          <div class="page-num"><img src="./img/role1/page-num.png" alt=""></div>
+        </div>
+      </div>
+      <div class="section section3">
+        <div class="section-warp">
+          <div class="page-bg"><img src="./img/role2/page-bg.jpg" alt=""></div>
+          <div class="page-bg-left"><img src="./img/role2/page-bg-left.png" alt=""></div>
+          <div class="page-bg-right"><img src="./img/role2/page-bg-right.png" alt=""></div>
+          <div class="page-role-left"><img src="./img/role2/page-role-left.png" alt=""></div>
+          <div class="page-role"><img src="./img/role2/page-role.png" alt=""></div>
+          <div class="page-title"><img src="./img/role2/page-title.png" alt=""></div>
+          <div class="page-arms"><img src="./img/role2/page-arms.png" alt=""></div>
+          <div class="page-num"><img src="./img/role2/page-num.png" alt=""></div>
+        </div>
+      </div>
+      <div class="section section4">
+        <div class="section-warp">
+          <div class="page-bg"><img src="./img/role3/page-bg.jpg" alt=""></div>
+          <div class="page-bg-left"><img src="./img/role3/page-bg-left.png" alt=""></div>
+          <div class="page-bg-right"><img src="./img/role3/page-bg-right.png" alt=""></div>
+          <div class="page-role"><img src="./img/role3/page-role.png" alt=""></div>
+          <div class="page-title"><img src="./img/role3/page-title.png" alt=""></div>
+          <div class="page-arms"><img src="./img/role3/page-arms.png" alt=""></div>
+          <div class="page-num"><img src="./img/role3/page-num.png" alt=""></div>
+        </div>
+      </div>
+      <div class="section section5 ">
+        <div class="section-warp">
+          <div class="page-bg-front"><img src="./img/role4/page-bg-front.png" alt=""></div>
+          <div class="page-bg"><img src="./img/role4/page-bg.jpg" alt=""></div>
+          <div class="page-bg-left"><img src="./img/role4/page-bg-left.png" alt=""></div>
+          <div class="page-bg-right"><img src="./img/role4/page-bg-right.png" alt=""></div>
+          <div class="page-role"><img src="./img/role4/page-role.png" alt=""></div>
+          <div class="page-title"><img src="./img/role4/page-title.png" alt=""></div>
+          <div class="page-role-desc"><img src="./img/role4/page-role-desc.png" alt=""></div>
+          <div class="page-num"><img src="./img/role4/page-num.png" alt=""></div>
+        </div>
+      </div>
+      <div class="section section6 ">
+        <div class="section-warp">
+          <div class="page-bg"><img src="./img/role5/page-bg.jpg" alt=""></div>
+          <div class="page-bg-front"><img src="./img/role5/page-bg-front.png" alt=""></div>
+          <div class="page-bg-left"><img src="./img/role5/page-bg-left.png" alt=""></div>
+          <div class="page-bg-right"><img src="./img/role5/page-bg-right.png" alt=""></div>
+          <div class="page-role"><img src="./img/role5/page-role.png" alt=""></div>
+          <div class="page-title"><img src="./img/role5/page-title.png" alt=""></div>
+          <div class="page-arms"><img src="./img/role5/page-arms.png" alt=""></div>
+          <div class="page-num"><img src="./img/role5/page-num.png" alt=""></div>
+        </div>
+      </div>
+      <div class="section section7">
+        <div class="section-warp">
+          <div class="page-bg"><img src="./img/role6/page-bg.jpg" alt=""></div>
+          <div class="page-bg-left"><img src="./img/role6/page-bg-left.png" alt=""></div>
+          <div class="page-bg-right"><img src="./img/role6/page-bg-right.png" alt=""></div>
+          <div class="page-role"><img src="./img/role6/page-role.png" alt=""></div>
+          <div class="page-title"><img src="./img/role6/page-title.png" alt=""></div>
+          <div class="page-arms"><img src="./img/role6/page-arms.png" alt=""></div>
+          <div class="page-num"><img src="./img/role6/page-num.png" alt=""></div>
+        </div>
+      </div>
+      <div class="section section8">
+        <div class="section-warp">
+          <div class="page-bg"><img src="./img/role7/page-bg.jpg" alt=""></div>
+          <div class="page-bg-left"><img src="./img/role7/page-bg-left.png" alt=""></div>
+          <div class="page-bg-right">
+            <img src="./img/role7/page-bg-right.png" alt="">
+          </div>
+          <div class="page-role"><img src="./img/role7/page-role.png" alt=""></div>
+          <div class="page-role hand"><img src="./img/role7/page-role-hand.png" alt=""></div>
+          <div class="page-title"><img src="./img/role7/page-title.png" alt=""></div>
+          <div class="page-arms"><img src="./img/role7/page-arms.png" alt=""></div>
+          <div class="page-num"><img src="./img/role7/page-num.png" alt=""></div>
         </div>
       </div>
     </div>
-    <div class="section">第二屏</div>
-    <div class="section">
-        <div class="slide">第三屏的第一屏</div>
-        <div class="slide">第三屏的第二屏</div>
-        <div class="slide">第三屏的第三屏</div>
-        <div class="slide">第三屏的第四屏</div>
-    </div>
-    <div class="section">第四屏</div>
-  </div>
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/jquery.fullpage.min.js"></script>
-  <script src="./js/main.js"></script>
-</body>
+    <script src="./js/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="./js/scrolloverflow.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <!--[if IE 8]><script src="./js/jquery.slimscroll.min.js"></script>
+    <script src="./js/jquery.fullpage2.5.4.min.js"></script><![endif]-->
+    <script src="./js/main.js"></script>
+  </body>
 </html>
