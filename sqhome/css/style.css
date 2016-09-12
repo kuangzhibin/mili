@@ -33,7 +33,7 @@ body {
 #menu a {
   text-decoration: none;
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   vertical-align: middle;
   /*margin-bottom: 20px;*/
   display: block;
@@ -218,7 +218,7 @@ body {
   position: absolute;
   top: 0%;
   left: 0%;
-  margin-top: 27.03125%;
+  margin-top: 24.47916667%;
   margin-left: 156.25%;
   width: 31.66666667%;
   transition: all .3s 1.6s;
@@ -227,7 +227,7 @@ body {
   position: absolute;
   top: 0%;
   left: 0%;
-  margin-top: 46.19791667%;
+  margin-top: 44.11458333%;
   margin-left: 59.21875%;
   width: 11.19791667%;
   opacity: 0;
@@ -669,7 +669,7 @@ body {
   top: 0%;
   left: 0%;
   margin-top: 31.19791667%;
-  margin-left: 60.9375%;
+  margin-left: 57.08333333%;
   width: 28.28125%;
   opacity: 0;
   transition: all .3s 1.6s;
@@ -701,7 +701,7 @@ body {
 }
 .section7.active .page-arms {
   opacity: 1;
-  margin-top: 15.57291667%;
+  margin-top: 11.97916667%;
 }
 .section7.active .page-num {
   margin-top: 32.86458333%;
@@ -790,7 +790,7 @@ body {
 }
 .section8.active .page-arms {
   opacity: 1;
-  margin-top: 30.98958333%;
+  margin-top: 26.04166667%;
 }
 .section8.active .page-num {
   margin-top: 20%;

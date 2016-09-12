@@ -1,8 +1,8 @@
 $(function(){
     $('#warp').fullpage({
       scrollingSpeed:600,
-      verticalCentered:false,
-      scrollOverflow:true,
+      verticalCentered:true,
+      // scrollOverflow:true,
       anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8'],
       menu: '#menu',
       afterLoad: function(anchorLink, index){
@@ -15,5 +15,8 @@ $(function(){
         }
       }
     });
-    $('.section-warp').height($('.section-warp').width()*0.5625);
+    // if($('.section-warp').height()>$('.section-warp').width()*0.5625){
+    //   $('.section-warp').height($('.section-warp').width()*0.5625)
+    // }
+    // $('.section-warp').height($('.section-warp').width()*0.5625);
 });
