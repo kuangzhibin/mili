@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+img {
+  width: 100%;
+}
+.fixedTop {
+  position: fixed;
+  z-index: 999;
+  width: 7.71875rem;
+  margin-top: 0.046875rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url(../img/page1-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide1 * {
+  opacity: 0;
+}
+.slide1 .page-title {
+  position: absolute;
+  width: 6.5rem;
+  height: 3.28125rem;
+  margin-left: 0.203125rem;
+  margin-top: 0.453125rem;
+  background: url(../img/page1-title.png) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide1 .page-role {
+  position: absolute;
+  width: 10.0rem;
+  height: 16.875rem;
+  margin-top: 0.859375rem;
+  background: url(../img/page1-role.png) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide1 .page-title-desc {
+  position: absolute;
+  width: 5.28125rem;
+  height: 2.421875rem;
+  margin-top: 12.21875rem;
+  margin-left: 4.4375rem;
+  background: url(../img/page1-title-desc.png) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  animation-fill-mode: forwards;
+}
+.slide2 {
+  background: url('../img/page2-bg.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide2 .page-role-name {
+  position: absolute;
+  width: 5.828125rem;
+  height: 5.234375rem;
+  margin-left: 0.203125rem;
+  margin-top: 0.625rem;
+  background: url('../img/page2-role-name.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide2 .page-role {
+  position: absolute;
+  width: 10.0rem;
+  height: 16.015625rem;
+  bottom: 0;
+  background: url('../img/page2-role.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide2 .page-role-desc {
+  position: absolute;
+  width: 0.421875rem;
+  height: 7.515625rem;
+  margin-left: 0.296875rem;
+  margin-top: 3.90625rem;
+  background: url('../img/page2-role-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide2 .page-arms {
+  position: absolute;
+  width: 2.5rem;
+  height: 3.1875rem;
+  margin-left: 0.015625rem;
+  margin-top: 11.96875rem;
+  background: url('../img/page2-arms.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide2 .page-arms-desc {
+  position: absolute;
+  width: 5.0rem;
+  height: 2.640625rem;
+  margin-left: 2.703125rem;
+  margin-top: 12.421875rem;
+  background: url('../img/page2-arms-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide3 {
+  background: url('../img/page3-bg.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide3 .page-role-name {
+  position: absolute;
+  width: 10.078125rem;
+  height: 4.359375rem;
+  margin-left: 0.125rem;
+  margin-top: 0.65625rem;
+  background: url('../img/page3-role-name.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide3 .page-role {
+  position: absolute;
+  width: 10.0rem;
+  height: 16.875rem;
+  bottom: 0;
+  background: url('../img/page3-role.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide3 .page-role-desc {
+  position: absolute;
+  width: 0.359375rem;
+  height: 7.265625rem;
+  margin-left: 0.3125rem;
+  margin-top: 4.890625rem;
+  background: url('../img/page3-role-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide3 .page-arms {
+  position: absolute;
+  width: 1.40625rem;
+  height: 3.78125rem;
+  margin-left: 0.671875rem;
+  margin-top: 10.875rem;
+  background: url('../img/page3-arms.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide3 .page-arms-desc {
+  position: absolute;
+  width: 3.828125rem;
+  height: 3.109375rem;
+  margin-left: 2.03125rem;
+  margin-top: 11.84375rem;
+  background: url('../img/page3-arms-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide4 {
+  background: url('../img/page4-bg.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide4 .page-role-name {
+  position: absolute;
+  width: 9.40625rem;
+  height: 4.65625rem;
+  margin-left: 0.125rem;
+  margin-top: 0.65625rem;
+  background: url('../img/page4-role-name.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide4 .page-role {
+  position: absolute;
+  width: 8.765625rem;
+  height: 16.875rem;
+  bottom: 0;
+  background: url('../img/page4-role.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide4 .page-role-desc {
+  position: absolute;
+  width: 0.359375rem;
+  height: 7.734375rem;
+  margin-left: 9.265625rem;
+  margin-top: 4.75rem;
+  background: url('../img/page4-role-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide4 .page-fg {
+  position: absolute;
+  width: 10.0rem;
+  height: 15.65625rem;
+  bottom: 0;
+  background: url('../img/page4-fg.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide5 {
+  background: url('../img/page5-bg.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide5 .page-role-name {
+  position: absolute;
+  width: 4.703125rem;
+  height: 7.6875rem;
+  margin-left: 4.921875rem;
+  margin-top: 0.640625rem;
+  background: url('../img/page5-role-name.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide5 .page-role {
+  position: absolute;
+  width: 9.5rem;
+  height: 16.09375rem;
+  bottom: 0;
+  background: url('../img/page5-role.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide5 .page-role-desc {
+  position: absolute;
+  width: 0.359375rem;
+  height: 5.5rem;
+  margin-left: 9.234375rem;
+  margin-top: 4.796875rem;
+  background: url('../img/page5-role-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide5 .page-arms {
+  position: absolute;
+  width: 8.4375rem;
+  height: 2.640625rem;
+  margin-left: 1.34375rem;
+  margin-top: 12.171875rem;
+  background: url('../img/page5-arms.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide5 .page-fg {
+  position: absolute;
+  width: 10.0rem;
+  height: 8.9375rem;
+  margin-top: 5.0625rem;
+  background: url('../img/page5-fg.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide6 {
+  background: url('../img/page6-bg.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide6 .page-role-name {
+  position: absolute;
+  width: 9.796875rem;
+  height: 3.890625rem;
+  margin-left: 0.203125rem;
+  margin-top: 0.640625rem;
+  background: url('../img/page6-role-name.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide6 .page-role {
+  position: absolute;
+  width: 10.0rem;
+  height: 16.875rem;
+  bottom: 0;
+  background: url('../img/page6-role.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide6 .page-role-desc {
+  position: absolute;
+  width: 0.328125rem;
+  height: 8.4375rem;
+  margin-left: 0.3125rem;
+  margin-top: 4.1875rem;
+  background: url('../img/page6-role-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide6 .page-arms {
+  position: absolute;
+  width: 7.578125rem;
+  height: 2.875rem;
+  margin-left: 0.8125rem;
+  margin-top: 12.171875rem;
+  background: url('../img/page6-arms.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide7 {
+  background: url('../img/page7-bg.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide7 .page-role-name {
+  position: absolute;
+  width: 5.28125rem;
+  height: 6.859375rem;
+  margin-left: 0.296875rem;
+  margin-top: 0.6875rem;
+  background: url('../img/page7-role-name.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide7 .page-role {
+  position: absolute;
+  width: 9.921875rem;
+  height: 16.5625rem;
+  right: -0.671875rem;
+  bottom: 0;
+  background: url('../img/page7-role.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide7 .page-role-desc {
+  position: absolute;
+  width: 0.34375rem;
+  height: 8.765625rem;
+  margin-left: 0.328125rem;
+  margin-top: 3.90625rem;
+  background: url('../img/page7-role-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide7 .page-arms {
+  position: absolute;
+  width: 6.734375rem;
+  height: 4.4375rem;
+  margin-left: 0.09375rem;
+  margin-top: 10.515625rem;
+  background: url('../img/page7-arms.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide8 {
+  background: url('../img/page8-bg.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide8 .page-role-name {
+  position: absolute;
+  width: 5.484375rem;
+  height: 12.671875rem;
+  margin-left: 0.296875rem;
+  margin-top: 0.640625rem;
+  background: url('../img/page8-role-name.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide8 .page-role {
+  position: absolute;
+  width: 8.609375rem;
+  height: 16.875rem;
+  right: 0;
+  bottom: 0;
+  background: url('../img/page8-role.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide8 .page-role-desc {
+  position: absolute;
+  width: 0.34375rem;
+  height: 9.40625rem;
+  margin-left: 0.328125rem;
+  margin-top: 3.90625rem;
+  background: url('../img/page8-role-desc.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.slide8 .page-arms {
+  position: absolute;
+  width: 6.8125rem;
+  height: 8.046875rem;
+  margin-left: 1.21875rem;
+  margin-top: 8.65625rem;
+  background: url('../img/page8-arms.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
