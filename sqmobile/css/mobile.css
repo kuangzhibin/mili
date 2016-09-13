@@ -67,6 +67,8 @@ img {
   animation-fill-mode: forwards;
 }
 .slide2 {
+  width: 100%;
+  height: 100%;
   background: url('../img/page2-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -121,6 +123,8 @@ img {
   background-size: cover;
 }
 .slide3 {
+  width: 100%;
+  height: 100%;
   background: url('../img/page3-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -175,6 +179,8 @@ img {
   background-size: cover;
 }
 .slide4 {
+  width: 100%;
+  height: 100%;
   background: url('../img/page4-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -218,6 +224,8 @@ img {
   background-size: cover;
 }
 .slide5 {
+  width: 100%;
+  height: 100%;
   background: url('../img/page5-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -271,6 +279,8 @@ img {
   background-size: cover;
 }
 .slide6 {
+  width: 100%;
+  height: 100%;
   background: url('../img/page6-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -315,6 +325,8 @@ img {
   background-size: cover;
 }
 .slide7 {
+  width: 100%;
+  height: 100%;
   background: url('../img/page7-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -360,6 +372,8 @@ img {
   background-size: cover;
 }
 .slide8 {
+  width: 100%;
+  height: 100%;
   background: url('../img/page8-bg.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
