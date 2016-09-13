@@ -20,6 +20,19 @@ img {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+.arrow-up {
+  display: none;
+  width: 59px;
+  height: 60px;
+  background: url(../img/icon-arrowDown.png) center no-repeat;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -29.5px;
+  z-index: 99;
+  transition: all 1s ease-in;
+  animation: next 1s  infinite backwards;
+}
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -417,4 +430,55 @@ img {
   background: url('../img/page8-arms.png') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+}
+@-webkit-keyframes next {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  80% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
