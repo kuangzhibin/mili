@@ -15,7 +15,8 @@ body {
   position: fixed;
   z-index: 999;
   display: none;
-  margin-top: 17.65625%;
+  top: 50%;
+  margin-top: -187px;
   margin-left: 5.9375%;
 }
 #menu ul {
@@ -249,27 +250,28 @@ body {
 .section2 .page-bg {
   width: 100%;
   height: 100%;
-  background: url(../img/role2/page-bg.jpg) center no-repeat;
+  background: url(../img/role1/page-bg.jpg) center no-repeat;
   background-size: cover;
 }
 .section2 .page-bg-left {
+  position: absolute;
   z-index: 1;
+  width: 51.14583333%;
   bottom: -0.6%;
   transition: all .6s .3s;
-  position: absolute;
-  width: 51.14583333%;
-  margin-top: 0%;
-  margin-left: -51.14583333%;
+  margin-left: -52.08333333%;
 }
 .section2 .page-bg-right {
   position: absolute;
   top: 0;
   right: -100%;
-  width: 69.73958333%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/role1/page-bg-right.png) bottom right no-repeat;
   transition: all .6s .3s;
 }
 .section2 .page-role {
-  bottom: -2.6%;
+  bottom: -10.6%;
   transition: all .9s .6s;
   position: absolute;
   width: 74.47916667%;
@@ -325,17 +327,18 @@ body {
 .section3 .page-bg {
   width: 100%;
   height: 100%;
-  background: url(../img/role3/page-bg.jpg) center no-repeat;
+  background: url(../img/role2/page-bg.jpg) center no-repeat;
   background-size: cover;
 }
 .section3 .page-bg-left {
+  position: absolute;
   z-index: 1;
   top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/role2/page-bg-left.png) bottom left no-repeat;
+  margin-left: -100%;
   transition: all .6s .3s;
-  position: absolute;
-  width: 68.28125%;
-  margin-top: 0%;
-  margin-left: -104.16666667%;
 }
 .section3 .page-bg-right {
   position: absolute;
@@ -347,20 +350,12 @@ body {
 }
 .section3 .page-role {
   z-index: 2;
-  bottom: 0;
+  bottom: -14.6%;
   transition: all .9s .6s;
   position: absolute;
-  width: 64.21875%;
+  width: 68.95833333%;
   margin-top: 0%;
   margin-left: 136.51041667%;
-}
-.section3 .page-role-left {
-  position: absolute;
-  z-index: 4;
-  bottom: 10.41666667%;
-  width: 31.51041667%;
-  margin-left: 131.77083333%;
-  transition: all .9s .6s;
 }
 .section3 .page-title {
   z-index: 2;
@@ -374,13 +369,14 @@ body {
 }
 .section3 .page-arms {
   z-index: 3;
-  bottom: 15.625%;
+  bottom: 7.625%;
   transition: all .3s 1.6s;
   opacity: 0;
   position: absolute;
   width: 28.80208333%;
-  margin-top: 39.32291667%;
-  margin-left: 53.54166667%;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-left: 62.541667%;
 }
 .section3 .page-num {
   top: 0;
@@ -390,6 +386,7 @@ body {
   width: 10%;
   margin-top: 12.91666667%;
   margin-left: 73.33333333%;
+  z-index: 5;
 }
 .section3.active .page-bg-left {
   margin-left: 0;
@@ -398,10 +395,7 @@ body {
   margin-left: 47.03125%;
 }
 .section3.active .page-role {
-  margin-left: 32.34375%;
-}
-.section3.active .page-role-left {
-  margin-left: 27.60416667%;
+  margin-left: 18.75%;
 }
 .section3.active .page-title {
   opacity: 1;
@@ -420,12 +414,15 @@ body {
   background-size: cover;
 }
 .section4 .page-bg-left {
-  top: 0;
-  transition: all .6s .3s;
   position: absolute;
-  width: 73.80208333%;
+  width: 0%;
   margin-top: 0%;
   margin-left: -104.16666667%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/role3/page-bg-left.png) bottom left no-repeat;
+  transition: all .6s .3s;
 }
 .section4 .page-bg-right {
   z-index: 3;
@@ -438,7 +435,7 @@ body {
 }
 .section4 .page-role {
   z-index: 2;
-  bottom: -0.6%;
+  bottom: -12.6%;
   transition: all .9s .6s;
   position: absolute;
   width: 52.91666667%;
@@ -488,7 +485,7 @@ body {
   opacity: 1;
 }
 .section4.active .page-arms {
-  margin-bottom: 11.92708333%;
+  margin-bottom: 3.927083%;
   opacity: 1;
 }
 .section4.active .page-num {
@@ -511,12 +508,13 @@ body {
   opacity: 0;
 }
 .section5 .page-bg-left {
+  position: absolute;
   z-index: 1;
   top: 0;
   transition: all .6s .3s;
-  position: absolute;
-  width: 68.80208333%;
-  margin-top: 0%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/role4/page-bg-left.png) bottom left no-repeat;
   margin-left: -104.16666667%;
 }
 .section5 .page-bg-right {
@@ -530,12 +528,12 @@ body {
 }
 .section5 .page-role {
   z-index: 2;
-  bottom: -0.6%;
+  bottom: -13.6%;
   transition: all .9s .6s;
   position: absolute;
-  width: 43.54166667%;
+  width: 39.47916667%;
   margin-top: 0%;
-  margin-left: 89.01041667%;
+  margin-left: 120.26041667%;
 }
 .section5 .page-title {
   z-index: 2;
@@ -617,17 +615,18 @@ body {
   opacity: 0;
 }
 .section6 .page-bg-right {
+  position: absolute;
   z-index: 1;
   top: 0;
   transition: all .6s .3s;
-  position: absolute;
-  width: 76.35416667%;
-  margin-top: 0%;
-  margin-left: 127.8125%;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/role5/page-bg-right.png) bottom right no-repeat;
 }
 .section6 .page-role {
   z-index: 2;
-  bottom: -0.6%;
+  bottom: -12%;
   transition: all .9s .6s;
   position: absolute;
   width: 40.52083333%;
@@ -671,7 +670,7 @@ body {
   opacity: 1;
 }
 .section6.active .page-bg-right {
-  margin-left: 23.64583333%;
+  right: 0;
 }
 .section6.active .page-role {
   margin-left: 20.72916667%;
@@ -704,13 +703,14 @@ body {
   margin-left: -104.16666667%;
 }
 .section7 .page-bg-right {
+  position: absolute;
   z-index: 1;
   top: 0;
   transition: all .6s .3s;
-  position: absolute;
-  width: 72.8125%;
-  margin-top: 0%;
-  margin-left: 131.35416667%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/role6/page-bg-right.png) bottom right no-repeat;
+  right: -100%;
 }
 .section7 .page-role {
   z-index: 2;
@@ -719,7 +719,7 @@ body {
   width: 46.77083333%;
   margin-top: 0%;
   margin-left: -45.36458333%;
-  bottom: -0.6%;
+  bottom: -13.6%;
 }
 .section7 .page-title {
   z-index: 4;
@@ -729,7 +729,8 @@ body {
   position: absolute;
   width: 22.91666667%;
   margin-top: -9.11458333%;
-  margin-left: 53.125%;
+  margin-left: 0%;
+  margin-left: 59.125%;
 }
 .section7 .page-arms {
   z-index: 3;
@@ -739,7 +740,8 @@ body {
   position: absolute;
   width: 28.28125%;
   margin-top: 31.19791667%;
-  margin-left: 57.08333333%;
+  margin-left: 0%;
+  margin-left: 68.083333%;
 }
 .section7 .page-num {
   z-index: 4;
@@ -755,7 +757,7 @@ body {
   margin-left: 0;
 }
 .section7.active .page-bg-right {
-  margin-left: 27.1875%;
+  right: 0;
 }
 .section7.active .page-role {
   margin-left: 17.13541667%;
@@ -779,13 +781,14 @@ body {
   background-size: cover;
 }
 .section8 .page-bg-left {
+  position: absolute;
   top: 0;
   z-index: 1;
+  left: -100%;
   transition: all .6s .3s;
-  position: absolute;
-  width: 67.8125%;
-  margin-top: 0%;
-  margin-left: -104.16666667%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/role7/page-bg-left.png) bottom left no-repeat;
 }
 .section8 .page-bg-right {
   bottom: -0.6%;
@@ -801,7 +804,7 @@ body {
   z-index: 1;
   width: 56.25%;
   margin-left: -134.01041667%;
-  bottom: -0.6%;
+  bottom: -10.6%;
   transition: all .9s .6s;
   opacity: 0;
 }
@@ -839,7 +842,7 @@ body {
   margin-left: 72.5%;
 }
 .section8.active .page-bg-left {
-  margin-left: 0;
+  left: 0;
 }
 .section8.active .page-bg-right {
   margin-left: 47.03125%;
@@ -849,11 +852,11 @@ body {
   opacity: 1;
 }
 .section8.active .page-title {
-  margin-top: 7.08333333%;
+  margin-top: 6.51041667%;
   opacity: 1;
 }
 .section8.active .page-arms {
-  margin-bottom: 7.8125%;
+  margin-bottom: 8.208333%;
   opacity: 1;
 }
 .section8.active .page-num {

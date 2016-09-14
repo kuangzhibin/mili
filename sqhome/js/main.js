@@ -11,7 +11,7 @@ $(function(){
           // $('.section1').addClass('onload');
           setTimeout(function(){
             $('.section1').addClass('onload');
-          },30);
+          },300);
           $('#menu').css('display', 'none');
         }else{
           $('.section1').removeClass('onload');

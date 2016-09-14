@@ -18,7 +18,8 @@ html, body {
 
   display: none;
 
-  margin-top: 339/@w;
+  top:50%;
+  margin-top: -187px;
   margin-left: 114/@w;
   ul {
     list-style: none;
@@ -310,29 +311,34 @@ html, body {
     width: 100%;
     height: 100%;
 
-    background: url(../img/role2/page-bg.jpg) center no-repeat;
+    background: url(../img/role1/page-bg.jpg) center no-repeat;
     background-size: cover;
   }
   .page-bg-left {
+    position: absolute;
+
     z-index: 1;
-    bottom: -.6%;
-
+    width: (982/1920)*100%;
+    bottom: -0.6%;
+    
     transition: all .6s .3s;
-
-    .ele(@mt: 0,@ml:0-982,@wd:982);
+    margin-left: -1000/@w;
+    // .ele(@mt: 0,@ml:0-982,@wd:982);
   }
   .page-bg-right {
     position: absolute;
     top: 0;
     right: -1920/@w;
-
-    width: 1339/@w;
-
+    // width: (1399/1920)*100%;
+    // background: url(../img/role1/page-bg-right.png) bottom left no-repeat;
+    width: 100%;
+    height: 100%;
+    background: url(../img/role1/page-bg-right.png) bottom right no-repeat;
     transition: all .6s .3s;
   }
   .page-role {
     position: absolute;
-    bottom: -2.6%;
+    bottom: -10.6%;
 
     width: 1430/@w;
     margin-left: -1430/@w;
@@ -405,19 +411,22 @@ html, body {
     width: 100%;
     height: 100%;
 
-    background: url(../img/role3/page-bg.jpg) center no-repeat;
+    background: url(../img/role2/page-bg.jpg) center no-repeat;
     background-size: cover;
   }
   .page-bg-left {
+    position: absolute;
     z-index: 1;
     top: 0;
+    // width: (1311/1920)*100%;
+    width: 100%;
+    height: 100%;
+    background: url(../img/role2/page-bg-left.png) bottom left no-repeat;
+    margin-left: -100%;
 
     transition: all .6s .3s;
-
-    .ele(@ml: 0-2000,@wd:1311);
   }
   .page-bg-right {
-    // .ele(@ml:903+2000,@mt:186,@wd:1017);
     position: absolute;
     z-index: 3;
     bottom: -.6%;
@@ -429,22 +438,11 @@ html, body {
   }
   .page-role {
     z-index: 2;
-    bottom: 0;
+    bottom: -14.6%;
 
     transition: all .9s .6s;
 
-    .ele(@ml: 621+2000,@wd:1233);
-  }
-  .page-role-left {
-    // .ele(@ml:530+900,@mt:258,@wd:605);
-    position: absolute;
-    z-index: 4;
-    bottom: 200/@w;
-
-    width: 605/@w;
-    margin-left: (530+2000)/@w;
-
-    transition: all .9s .6s;
+    .ele(@ml: 621+2000,@wd:1324);
   }
   .page-title {
     z-index: 2;
@@ -458,22 +456,24 @@ html, body {
   }
   .page-arms {
     z-index: 3;
-    bottom: 300/@w;
+    bottom: 7.625%;
 
     transition: all .3s 1.6s;
 
     opacity: 0;
 
-    .ele(@mt: 455+300,@ml:1028,@wd:553);
+    .ele(@wd:553);
+    margin-left: 62.541667%;
   }
   .page-num {
     top: 0;
-
+    
     transition: all .6s 1.4s;
 
     opacity: 0;
 
     .ele(@mt: 248,@ml:1408,@wd:192);
+    z-index: 5;
   }
   &.active {
     .page-bg-left {
@@ -483,10 +483,7 @@ html, body {
       margin-left: 903/@w;
     }
     .page-role {
-      margin-left: 621/@w;
-    }
-    .page-role-left {
-      margin-left: 530/@w;
+      margin-left: 360/@w;
     }
     .page-title {
       opacity: 1;
@@ -511,11 +508,13 @@ html, body {
     background-size: cover;
   }
   .page-bg-left {
+    .ele(@ml: 0-2000);
     top: 0;
-
+    width: 100%;
+    height: 100%;
+    background: url(../img/role3/page-bg-left.png) bottom left no-repeat;
     transition: all .6s .3s;
 
-    .ele(@ml: 0-2000,@wd:1417);
   }
   .page-bg-right {
     z-index: 3;
@@ -527,7 +526,7 @@ html, body {
   }
   .page-role {
     z-index: 2;
-    bottom: -.6%;
+    bottom: -12.6%;
 
     transition: all .9s .6s;
 
@@ -582,7 +581,7 @@ html, body {
       opacity: 1;
     }
     .page-arms {
-      margin-bottom: 229/@w;
+      margin-bottom: 3.927083%;
 
       opacity: 1;
     }
@@ -615,12 +614,15 @@ html, body {
     opacity: 0;
   }
   .page-bg-left {
+    position: absolute;
     z-index: 1;
     top: 0;
-
+    
     transition: all .6s .3s;
-
-    .ele(@ml: 0-2000,@wd:1321);
+    width: 100%;
+    height: 100%;
+    background: url(../img/role4/page-bg-left.png) bottom left no-repeat;
+    margin-left: -2000/@w;
   }
   .page-bg-right {
     z-index: 3;
@@ -632,11 +634,11 @@ html, body {
   }
   .page-role {
     z-index: 2;
-    bottom: -.6%;
+    bottom: -13.6%;
 
     transition: all .9s .6s;
 
-    .ele(@ml: 709+1000,@wd:836);
+    .ele(@ml: 709+1600,@wd:758);
   }
   .page-title {
     z-index: 2;
@@ -732,16 +734,20 @@ html, body {
     opacity: 0;
   }
   .page-bg-right {
+    position: absolute;
     z-index: 1;
     top: 0;
 
     transition: all .6s .3s;
 
-    .ele(@ml: 454+2000,@wd:1466);
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: url(../img/role5/page-bg-right.png) bottom right no-repeat;
   }
   .page-role {
     z-index: 2;
-    bottom: -.6%;
+    bottom: -12%;
 
     transition: all .9s .6s;
 
@@ -785,7 +791,7 @@ html, body {
       opacity: 1;
     }
     .page-bg-right {
-      margin-left: 454/@w;
+      right:0;
     }
     .page-role {
       margin-left: 398/@w;
@@ -824,12 +830,17 @@ html, body {
     .ele(@ml: 0-2000,@mt:191,@wd:982);
   }
   .page-bg-right {
+    position: absolute;
     z-index: 1;
     top: 0;
 
     transition: all .6s .3s;
+    width: 100%;
+    height: 100%;
+    background: url(../img/role6/page-bg-right.png) bottom right no-repeat;
 
-    .ele(@ml: 522+2000,@wd:1398);
+    // .ele(@ml: 522+2000);
+   right: -100%;
   }
   .page-role {
     z-index: 2;
@@ -837,7 +848,7 @@ html, body {
     transition: all .9s .6s;
 
     .ele(@ml: 329-1200,@wd:898);
-    bottom:-0.6%;
+    bottom:-13.6%;
   }
   .page-title {
     z-index: 4;
@@ -847,7 +858,8 @@ html, body {
 
     opacity: 0;
 
-    .ele(@mt: 125-300,@ml:1020,@wd:440);
+    .ele(@mt: 125-300,@wd:440);
+    margin-left: 59.125%;
   }
   .page-arms {
     z-index: 3;
@@ -857,7 +869,8 @@ html, body {
 
     opacity: 0;
 
-    .ele(@mt: 299+300,@ml:1096,@wd:543);
+    .ele(@mt: 299+300,@wd:543);
+    margin-left: 68.083333%;
   }
   .page-num {
     z-index: 4;
@@ -874,7 +887,7 @@ html, body {
       margin-left: 0;
     }
     .page-bg-right {
-      margin-left: 522/@w;
+      right: 0;
     }
     .page-role {
       margin-left: 329/@w;
@@ -905,12 +918,14 @@ html, body {
     background-size: cover;
   }
   .page-bg-left {
+    position: absolute;
     top:0;
     z-index: 1;
-
+    left: -100%;
     transition: all .6s .3s;
-
-    .ele(@ml: 0-2000,@wd:1302);
+    width: 100%;
+    height: 100%;
+    background: url(../img/role7/page-bg-left.png) bottom left no-repeat;
   }
   .page-bg-right {
     bottom:-0.6%;
@@ -926,7 +941,7 @@ html, body {
     // .ele(@ml: 472-2000,@wd:1080);
     width: 1080/@w;
     margin-left: (427-3000)/@w;
-    bottom:-0.6%;
+    bottom:-10.6%;
 
     transition: all .9s .6s;
 
@@ -970,7 +985,7 @@ html, body {
   }
   &.active {
     .page-bg-left {
-      margin-left: 0;
+      left: 0;
     }
     .page-bg-right {
       margin-left: 903/@w;
@@ -981,12 +996,12 @@ html, body {
       opacity: 1;
     }
     .page-title {
-      margin-top: 136/@w;
+      margin-top: 6.51041667%;
 
       opacity: 1;
     }
     .page-arms {
-      margin-bottom: 150/@w;
+      margin-bottom: 8.208333%;
 
       opacity: 1;
     }
