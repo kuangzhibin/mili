@@ -92,15 +92,16 @@ img {
   height: 5.234375rem;
   margin-left: 0.203125rem;
   margin-top: 0.625rem;
-  background: url('../img/page2-role-name.png') no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background: url(../img/page2-role-name.png) center no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
 }
 .slide2 .page-role {
   position: absolute;
   width: 10.0rem;
   height: 16.015625rem;
   bottom: 0;
+  right: 0;
   background: url('../img/page2-role.png') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -157,6 +158,7 @@ img {
   width: 10.0rem;
   height: 16.875rem;
   bottom: 0;
+  right: 0;
   background: url('../img/page3-role.png') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -302,7 +304,7 @@ img {
   position: absolute;
   width: 9.796875rem;
   height: 3.890625rem;
-  margin-left: 0.203125rem;
+  right: 0;
   margin-top: 0.640625rem;
   background: url('../img/page6-role-name.png') no-repeat;
   -webkit-background-size: cover;
@@ -313,6 +315,7 @@ img {
   width: 10.0rem;
   height: 16.875rem;
   bottom: 0;
+  right: 0;
   background: url('../img/page6-role.png') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
