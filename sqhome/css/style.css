@@ -271,7 +271,7 @@ body {
   transition: all .6s .3s;
 }
 .section2 .page-role {
-  bottom: -10.6%;
+  bottom: -11.6%;
   transition: all .9s .6s;
   position: absolute;
   width: 74.47916667%;
@@ -350,7 +350,7 @@ body {
 }
 .section3 .page-role {
   z-index: 2;
-  bottom: -14.6%;
+  bottom: -15.6%;
   transition: all .9s .6s;
   position: absolute;
   width: 68.95833333%;
@@ -435,7 +435,7 @@ body {
 }
 .section4 .page-role {
   z-index: 2;
-  bottom: -12.6%;
+  bottom: -13.6%;
   transition: all .9s .6s;
   position: absolute;
   width: 52.91666667%;
@@ -528,7 +528,7 @@ body {
 }
 .section5 .page-role {
   z-index: 2;
-  bottom: -13.6%;
+  bottom: -14.6%;
   transition: all .9s .6s;
   position: absolute;
   width: 39.47916667%;
@@ -626,7 +626,7 @@ body {
 }
 .section6 .page-role {
   z-index: 2;
-  bottom: -12%;
+  bottom: -13%;
   transition: all .9s .6s;
   position: absolute;
   width: 40.52083333%;
@@ -719,7 +719,7 @@ body {
   width: 46.77083333%;
   margin-top: 0%;
   margin-left: -45.36458333%;
-  bottom: -13.6%;
+  bottom: -14.6%;
 }
 .section7 .page-title {
   z-index: 4;
@@ -734,7 +734,7 @@ body {
 }
 .section7 .page-arms {
   z-index: 3;
-  top: 0;
+  bottom: 0;
   transition: all .3s 1.6s;
   opacity: 0;
   position: absolute;
@@ -767,7 +767,7 @@ body {
   opacity: 1;
 }
 .section7.active .page-arms {
-  margin-top: 11.97916667%;
+  margin-bottom: -3.020833%;
   opacity: 1;
 }
 .section7.active .page-num {
@@ -804,7 +804,7 @@ body {
   z-index: 1;
   width: 56.25%;
   margin-left: -134.01041667%;
-  bottom: -10.6%;
+  bottom: -11.6%;
   transition: all .9s .6s;
   opacity: 0;
 }
@@ -829,7 +829,6 @@ body {
   opacity: 0;
   width: 24.79166667%;
   margin-left: 13.80208333%;
-  margin-bottom: -26.04166667%;
 }
 .section8 .page-num {
   top: 0;
@@ -856,7 +855,7 @@ body {
   opacity: 1;
 }
 .section8.active .page-arms {
-  margin-bottom: 8.208333%;
+  bottom: 4.208333%;
   opacity: 1;
 }
 .section8.active .page-num {
