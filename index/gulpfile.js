@@ -50,6 +50,12 @@ gulp.task('default', ['clean'], function() {
     gulp.start('styles', 'scripts', 'images');
 });
 
+gulp.task('build', ['clean'], function() {
+    // gulp.start('styles', 'scripts', 'images');
+    gulp.src('index.html')
+        .pipe(gulp.dest('dist'))
+});
+
 // Watch
 gulp.task('watch', function() {
   // Watch .scss files
